@@ -5,7 +5,8 @@ class S{
 		Scanner sc=new Scanner(System.in);
 		System.out.print("Enter A String:");
 		String st = sc.next();
-        
+
+		System.out.println("Length Of String:"+st.length());
 		System.out.println(st.substring(0,st.length()/2));
 	}
 }
